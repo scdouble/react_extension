@@ -7,11 +7,6 @@ export default class Parent extends Component {
             <div className='parent'>
                 <h3>I am Parent Component</h3>
                 <A render={(name) => { return <B name={name} /> }} />
-
-                <A>
-                    <B />
-                </A>
-
             </div>
         )
     }
